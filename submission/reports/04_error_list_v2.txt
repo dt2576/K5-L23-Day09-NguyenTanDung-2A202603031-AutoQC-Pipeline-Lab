@@ -1,0 +1,167 @@
+# Danh sách lỗi — SAU sửa tự động (v2)
+ảnh đã quét: 193
+
+label_format -> 10 dòng
+missing_labels -> 20 dòng
+second_opinion -> 120 dòng
+
+[ERROR] MISSING_LABEL_FILE   img_0031  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0053  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0126  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0135  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0170  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0219  ảnh không có file nhãn
+[WARN ] BOX_HUGE             img_0018.txt:1  Bounding Box chiếm quá nhiều diện tích ảnh
+[WARN ] BOX_HUGE             img_0128.txt:1  Bounding Box chiếm quá nhiều diện tích ảnh
+[WARN ] BOX_HUGE             img_0196.txt:1  Bounding Box chiếm quá nhiều diện tích ảnh
+[WARN ] BOX_TINY             img_0026.txt:6  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0030.txt:9  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0051.txt:5  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0069.txt:2  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0161.txt:2  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0161.txt:3  Bounding Box quá nhỏ
+[WARN ] BOX_TINY             img_0161.txt:4  Bounding Box quá nhỏ
+[WARN ] EMPTY_LABEL          img_0004  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0050  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0057  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0065  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0097  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0103  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0104  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0129  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0147  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0157  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0178  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0184  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0192  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0194  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] POSSIBLE_FALSE_POS   img_0024.txt:7  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0030.txt:9  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0035.txt:2  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0068.txt:7  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0069.txt:2  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0070.txt:6  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0078.txt:2  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0091.txt:7  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0092.txt:9  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0095.txt:6  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0099.txt:14  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0100.txt:4  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0111.txt:2  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0144.txt:1  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0149.txt:3  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0150.txt:3  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0155.txt:2  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0155.txt:3  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0180.txt:5  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0189.txt:4  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0193.txt:6  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0204.txt:1  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_FALSE_POS   img_0206.txt:1  Nhãn không khớp với dự đoán AI nào
+[WARN ] POSSIBLE_LOOSE_BOX   img_0015  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0018  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0036  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0045  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0046  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0054  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0062  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0062  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0064  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0077  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0082  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0090  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0094  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0096  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0119  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0125  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0127  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0127  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0131  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0142  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0171  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0171  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0175  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0179  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0200  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0217  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_LOOSE_BOX   img_0217  Bounding Box có thể chưa khít vật thể
+[WARN ] POSSIBLE_MISSING     img_0001  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0004  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0004  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0012  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0014  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0020  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0022  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0028  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0030  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0032  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0047  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0050  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0057  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0058  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0065  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0066  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0067  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0068  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0078  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0086  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0092  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0093  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0096  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0099  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0100  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0103  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0104  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0116  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0117  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0121  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0127  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0131  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0134  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0144  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0145  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0147  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0151  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0157  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0159  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0160  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0164  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0165  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0178  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0184  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0187  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0194  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0199  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0204  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0210  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0211  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0215  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0218  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_MISSING     img_0220  AI phát hiện vật thể có thể chưa được gán nhãn
+[WARN ] POSSIBLE_WRONG_CLASS img_0019  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0020  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0034  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0037  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0070  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0071  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0075  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0083  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0112  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0124  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0160  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0183  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0185  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0191  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0202  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0208  AI và nhãn có thể không cùng class
+[WARN ] POSSIBLE_WRONG_CLASS img_0212  AI và nhãn có thể không cùng class
+
+## Tổng hợp theo mã
+error MISSING_LABEL_FILE     6
+warn  BOX_HUGE               3
+warn  BOX_TINY               7
+warn  EMPTY_LABEL            14
+warn  POSSIBLE_FALSE_POS     23
+warn  POSSIBLE_LOOSE_BOX     27
+warn  POSSIBLE_MISSING       53
+warn  POSSIBLE_WRONG_CLASS   17
