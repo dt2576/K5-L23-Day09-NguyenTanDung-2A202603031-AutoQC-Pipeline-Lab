@@ -18,7 +18,66 @@ Trả về dict: decision, n_errors, n_warn_images, n_images, warn_ratio (làm t
 """
 from ..common import ERROR, WARN  # noqa: F401
 
-
 def decide(issues, image_stems, cfg, reviewed=frozenset()):
-    # TODO
-    raise NotImplementedError("gate chưa làm")
+    # Danh sách ảnh hợp lệ của dataset
+    images = set(image_stems)
+    reviewed = set(reviewed)
+
+    # 1. Đếm tất cả lỗi bắt buộc
+    n_errors = sum(
+        1 for issue in issues
+        if issue.severity == ERROR
+    )
+
+    # 2. Tìm các ảnh còn cảnh báo chưa xử lý
+    warn_images = {
+        issue.image
+        for issue in issues
+        if issue.severity == WARN
+        and issue.image in images
+        and issue.image not in reviewed
+    }
+
+    n_images = len(images)
+    n_warn_images = len(warn_images)
+
+    # 3. Tính tỷ lệ cảnh báo
+    warn_ratio = (
+        n_warn_images / n_images
+        if n_images > 0 else 0.0
+    )
+
+    threshold = cfg["gate"]["warn_ratio_hold"]
+
+    # 4. Quyết định chất lượng dataset
+    if n_errors > 0:
+        decision = "Rework"
+        reasons = [
+            f"Còn {n_errors} lỗi bắt buộc chưa xử lý."
+        ]
+
+    elif warn_ratio >= threshold:
+        decision = "Hold"
+        reasons = [
+            f"Có {n_warn_images}/{n_images} ảnh còn cảnh báo "
+            f"({warn_ratio:.2%}), đạt hoặc vượt ngưỡng "
+            f"{threshold:.2%}."
+        ]
+
+    else:
+        decision = "Release"
+        reasons = [
+            f"Không còn lỗi bắt buộc. "
+            f"Tỷ lệ ảnh cảnh báo {warn_ratio:.2%} "
+            f"thấp hơn ngưỡng {threshold:.2%}."
+        ]
+
+    # 5. Trả kết quả về pipeline
+    return {
+        "decision": decision,
+        "n_errors": n_errors,
+        "n_warn_images": n_warn_images,
+        "n_images": n_images,
+        "warn_ratio": round(warn_ratio, 4),
+        "reasons": reasons,
+    }
